@@ -33,17 +33,20 @@ Este projeto é 100% containerizado. A única dependência necessária na sua m�
 
 Clone o repositório:
 
-Bash
+## 🖥️ Bash 
 
-git clone [https://github.com/seu-usuario/kcalorias-app.git](https://github.com/alkateca/kcalorias.git)
-cd kcalorias-app
+git clone [https://github.com/seu-usuario/kcalorias-app.git](https://github.com/alkateca/kcalorias.git) <br>
+cd kcalorias-app <br>
 Suba os containers: (Este comando irá construir as imagens do frontend e backend, instalar todas as dependências do npm dentro dos containers e iniciar o banco de dados).
 
-Bash
+## 🖥️ Bash
 
-docker-compose up --build
+docker-compose up --build <br>
 Acesse a aplicação: Após o build terminar, abra seu navegador e acesse:
 
 ➡️ http://localhost:8080
 
 (Nota: O projeto está configurado para a porta 8080. Se ela estiver em uso, você pode alterá-la no arquivo docker-compose.yml na seção frontend.ports).
+
+<img width="963" height="718" alt="image" src="https://github.com/user-attachments/assets/517a6c2c-3003-478b-a615-a6832a6f3ff8" />
+
