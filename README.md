@@ -1,4 +1,4 @@
-# Kcalorias - Rastreador de Calorias kcalorias
+# Kcalorias - Rastreador de Calorias
 Um projeto full-stack simples para rastreamento de calorias. Consiste em um frontend React e um backend Node.js (API) que armazena dados em um MongoDB.
 
 Este projeto é totalmente containerizado usando Docker e Nginx.
