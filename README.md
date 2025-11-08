@@ -46,7 +46,9 @@ Acesse a aplicação: Após o build terminar, abra seu navegador e acesse:
 
 ➡️ http://localhost:8080
 
-(Nota: O projeto está configurado para a porta 8080. Se ela estiver em uso, você pode alterá-la no arquivo docker-compose.yml na seção frontend.ports).
+(PS1: O projeto está configurado para a porta 8080. Se ela estiver em uso, você pode alterá-la no arquivo docker-compose.yml na seção frontend.ports).
+
+(PS2: Adicionei um pequeno sistema de login utilizando o nginx, para configurar crie um arquivo chamado *.htpasswd* dentro da pasta frontend e dentro dele coloque o conteúdo gerado por algum site que crie credenciais -- nesse caso utilizei o [https://www.web2generators.com/apache-tools/htpasswd-generator](https://www.web2generators.com/apache-tools/htpasswd-generator))
 
 <img width="963" height="718" alt="image" src="https://github.com/user-attachments/assets/517a6c2c-3003-478b-a615-a6832a6f3ff8" />
 
